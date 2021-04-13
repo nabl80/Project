@@ -7,6 +7,12 @@
     src: url(../fonts/Gotham Book Regular.otf)
 }
 
+@media only screen and (max-width:700px){
+    .logoSection{
+        display: none !important;
+    }
+}
+
 button{
     background-color: rgba(0, 148, 76, 1);
     border: none;

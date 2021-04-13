@@ -41,7 +41,7 @@ function addShortMessage(){
             '</div>' +
             '</div>');
     }
-    $(".row").append('<a class="message-name" href="../html/archieve.html"><button>Naujienų archyvas</button></a>');
+    $(".row").append('<a class="message-name" href="../Project/html/archieve.html"><button>Naujienų archyvas</button></a>');
 }
 
 function showList(){
@@ -57,7 +57,7 @@ function showList(){
             '</div>' +
             '<div class="name-block-archieve">' +
             '<p class="message-name-archieve">' +
-            '<a class="a-message-name-archieve" onclick = "redirectToMessage('+id+')">' +
+            '<a class="a-message-name-archieve" onclick = "redirectToMessage2('+id+')">' +
             name +
             '</a>'+
             '</p>' +
@@ -69,14 +69,21 @@ function showList(){
 function redirectToDescription(id){
 
     getUrlParameter(id);
-    location.href = "/html/full-description.html?id=" + id;
+    location.href = "../html/full-description.html?id=" + id;
     return id;
 }
 
 function redirectToMessage(id){
 
     getUrlParameter(id);
-    location.href = "/html/full-message.html?id=" + id;
+    location.href = "../Project/html/full-message.html?id=" + id;
+    return id;
+}
+
+function redirectToMessage2(id){
+
+    getUrlParameter(id);
+    location.href = "../html/full-message.html?id=" + id;
     return id;
 }
 

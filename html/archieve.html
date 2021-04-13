@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="">
     <head>
         <meta charset="utf-8">
@@ -16,8 +17,8 @@
                 <div class="logoSection">
                     <div class="logodiv">
                         <a href="https://sanatorija.lt" target="_blank"><img class="logoimg" src="../images/Logoresize.jpg"></a>
-
                     </div>
+
                     <div class="contacts-orange center">
                         <p class="text-contacts-name">Bendraukime</p>
                         <p class="text-contacts">+370 612 14485</p>
@@ -28,9 +29,7 @@
                         <p class="text-contacts-name">Rezervuokite</p>
                         <p class="text-contacts center"><a class="mail-text" href="mailto:partner@sanatorija.lt">partner@sanatorija.lt</a></p>
                     </div>
-
                 </div>
-
             </div>
 
             <nav>
@@ -39,8 +38,8 @@
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
                         <li><a class="menu-text" href="../index.html">Pagrindinis</a></li>
-                        <li><a class="menu-text" href="arrivalinfo.html">Atvykimas</a></li>
-                        <li><a class="menu-text" href="programs.html">Programos</a></li>
+                        <li><a class="menu-text" href="../html/arrivalinfo.html">Atvykimas</a></li>
+                        <li><a class="menu-text" href="../html/programs.html">Programos</a></li>
                         <li><a class="menu-text" href="../downloads/Sample%20Pricelist.pdf" download="">Kainos</a></li>
                     </ul>
                 </div>
@@ -48,29 +47,24 @@
 
             <ul class="sidenav" id="mobile-demo">
                 <li><a class="menu-text" href="../index.html">Pagrindinis</a></li>
-                <li><a class="menu-text" href="arrivalinfo.html">Atvykimas</a></li>
-                <li><a class="menu-text" href="programs.html">Programos</a></li>
+                <li><a class="menu-text" href="../html/arrivalinfo.html">Atvykimas</a></li>
+                <li><a class="menu-text" href="../html/programs.html">Programos</a></li>
                 <li><a class="menu-text" href="../downloads/Sample%20Pricelist.pdf" download="">Kainos</a></li>
             </ul>
 
             <div class="header-line">
                 <h4 class="center container">Naujienų archyvas</h4>
-
             </div>
 
             <div class="container">
                 <div class="row"></div>
-
             </div>
 
             <div class="green-line">
                 <div class="bottom-line container">
-                    <a class="footer-text" href="https:www.google.com" target="_blank">&copy;2021 AbraKebabra</a>
-
+                    <a class="footer-text" href="https:www.google.com" target="_blank">&copy;2021 Evgeni Brish</a>
                 </div>
-
             </div>
-
         </div>
 
         <script src="../js/messages.js"></script>
@@ -79,11 +73,12 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script src="../js/programlist.js"></script>
         <script>
+            showList();
+
             document.addEventListener('DOMContentLoaded', function() {
                 var elems = document.querySelectorAll('.sidenav');
                 var instances = M.Sidenav.init(elems,{});
             });
-            showList();
         </script>
 
     </body>
