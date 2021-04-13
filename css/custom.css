@@ -1,0 +1,248 @@
+*{
+    font-family: Gotham book;
+}
+
+@font-face{
+    font-family: Gotham book;
+    src: url(../fonts/Gotham Book Regular.otf)
+}
+
+button{
+    background-color: rgba(0, 148, 76, 1);
+    border: none;
+    width: 162px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+h4{font-size: 23pt}
+
+h6{font-size: 15pt}
+
+li{color:grey}
+
+table{
+    font-size: 10pt;
+}
+
+.a-message-name-archieve:hover{
+    color: blue;
+    cursor: pointer
+}
+
+.attachment{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.body{
+    flex-wrap: wrap;
+    background-color: rgba(243, 162, 75, 0.1);
+}
+
+.bottom-line{
+    margin-top: 100px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.card-title{
+    font-size: 10pt !important;
+    padding: 15px !important;
+    width: 100% !important;
+    background-color: rgba(116, 139, 133, 0.7);
+    text-align: center;
+}
+
+.contacts-green{
+    margin-top: 20px;
+    width: 162px;
+    height: 130px;
+    background-color: #00954c;
+    font-weight: 700;
+    color: white;
+}
+
+.contacts-orange{
+    margin-top: 20px;
+    width: 162px;
+    height: 130px;
+    background-color: rgba(243, 162, 75, 1);
+    font-weight: 700;
+    color: white;
+}
+
+.date-block-archieve{
+    text-align: center;
+    width: 20%;
+    align-items: center;
+}
+
+.date-block, .header-line, .contacts-orange{background-color: rgba(243, 162, 75, 1)}
+
+.date-block{
+    text-align: center;
+    width: 20%;
+    height: auto;
+}
+
+.footer-text{
+    font-size: 12px;
+    color: white;
+}
+
+.fulltext-fulldescription{
+    font-size: 12pt;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.green-line{background-color:#00954c;}
+
+.header-line{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.image-fullmessage{
+    width:70%;
+}
+
+.image-programs{
+    width: 160px;
+    height: auto;
+}
+
+.inside{color:grey}
+
+.link{
+    color: black;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+.logoimg{
+    margin-top: 20px;
+    width: 162px;
+    height: 130px;
+}
+
+.logoSection{
+    display: flex;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+}
+
+.mail-text, .text-contacts{
+    color: white;
+    font-weight: 500;
+}
+.menu-line{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-text{
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+}
+
+.message-block-fullmessage{
+    width:70%;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.message-block{
+    width: 100%;
+    display:flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.message-date, .message-name, .message-name-archieve, .a-message-name-archieve, .readmore, .header-line, h6, .warning{
+    color: #2f3131;
+    font-weight: bold;
+}
+
+.message-text{
+    font-size: 16px;
+    line-height: 24px;
+    color: #5e5e5e;
+    text-indent: 20px;
+}
+
+.name-block-archieve{
+    text-align: left;
+    width: 80%;
+    height:24px;
+    margin-left: 30px;
+    align-items: center;
+
+}
+
+.nav-wrapper{
+    background-color: #00954c;
+    display: flex;
+    justify-content: space-around;
+}
+
+.readmore:hover{
+    color: blue;
+    cursor: pointer
+}
+
+.row-name-arrivalinfo{
+    font-weight: bold;
+}
+
+.short-block-archieve{
+    display: flex;
+    width: 85%;
+    height: 60px;
+    line-height: 18px;
+}
+
+.tekstas-arrivalinfo, .col, .description-block, .short-block-archieve, .text-block, .message-block-fullmessage{
+    background-color: rgba(243, 162, 75, 0.2)
+}
+
+.text-block{
+    width:80%;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.text-contacts{
+    font-size: 11pt;
+}
+
+.text-contacts-name{
+    font-size: 13pt;
+}
+
+#imgpic{
+    width: 100%;
+    height: auto;
+}
+
+
+
